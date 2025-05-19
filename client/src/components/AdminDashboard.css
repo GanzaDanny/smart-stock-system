@@ -1,0 +1,161 @@
+.admin-dashboard-bg {
+  display: flex;
+  min-height: 100vh;
+  background: #f7b6b6;
+}
+
+.admin-sidebar {
+  width: 220px;
+  background: #a68b6b;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.sidebar-title {
+  padding: 18px 16px;
+  font-size: 1.1rem;
+  background: #b39a7b;
+  color: #c6f3d6;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.sidebar-link {
+  color: #4d2222;
+  text-decoration: none;
+  padding: 12px 18px;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+
+.sidebar-link.active,
+.sidebar-link:hover {
+  background: #f7b6b6;
+  color: #a68b6b;
+  border-radius: 0 20px 20px 0;
+}
+
+.sidebar-bottom {
+  margin-bottom: 30px;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 30px 40px;
+}
+
+.status-section h2 {
+  color: #4d2222;
+  margin-bottom: 10px;
+}
+
+.status-cards {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.status-card {
+  padding: 18px 24px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1.1rem;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.total-farmers {
+  background: #6b8b53;
+}
+
+.good-farmers {
+  background: #7bb17b;
+}
+
+.bad-farmers {
+  background: #e53935;
+}
+
+.status-value {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.threshold-section {
+  margin-bottom: 30px;
+}
+
+.threshold-title {
+  color: #4d2222;
+  margin-bottom: 8px;
+}
+
+.threshold-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.threshold-card {
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.temp-card {
+  background: #e58b3b;
+  color: #fff;
+}
+
+.humidity-card {
+  background: #b39a7b;
+  color: #4d2222;
+}
+
+.threshold-label {
+  font-weight: bold;
+}
+
+.threshold-value {
+  margin-top: 4px;
+}
+
+.recent-farmers-section {
+  margin-top: 30px;
+}
+
+.recent-title {
+  color: #4d2222;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.farmers-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+}
+
+.farmers-table th,
+.farmers-table td {
+  padding: 10px 12px;
+  text-align: left;
+  color: #4d2222;
+}
+
+.farmers-table th {
+  font-weight: bold;
+}

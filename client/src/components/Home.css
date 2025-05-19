@@ -1,0 +1,102 @@
+.home {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #2c4a3e, #1a2e26);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 4rem;
+}
+
+.brand {
+  font-size: 1.8rem;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #8FCCB4;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.main-content {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #8FCCB4;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #8FCCB4;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.get-started-btn {
+  background-color: #8FCCB4;
+  color: #1a2e26;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.get-started-btn:hover {
+  transform: scale(1.05);
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  padding: 0 2rem;
+}
+
+.feature {
+  flex: 1;
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.feature h2 {
+  color: #8FCCB4;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.feature p {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #8FCCB4;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+} 

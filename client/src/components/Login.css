@@ -1,0 +1,94 @@
+.login-bg {
+  min-height: 100vh;
+  background: radial-gradient(circle, #7bb17b 0%, #2c4a3e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background: transparent;
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  box-shadow: none;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #111;
+  font-weight: bold;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  margin-bottom: 18px;
+  padding: 0 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-group .icon {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  color: #222;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  padding: 14px 0;
+  width: 100%;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.login-btn {
+  width: 60%;
+  padding: 10px 0;
+  margin: 18px 0 10px 0;
+  background: #8FCCB4;
+  color: #111;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-btn:hover {
+  background: #6bbf8e;
+}
+
+.login-links {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.forgot {
+  color: #6b6bbf;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.signup-link {
+  margin-top: 5px;
+  color: #6b6bbf;
+  font-size: 1rem;
+}
+
+.signup-link .signup {
+  color: #6b6bbf;
+  font-weight: bold;
+  text-decoration: none;
+}
+
